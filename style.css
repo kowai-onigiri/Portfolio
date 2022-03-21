@@ -14,7 +14,7 @@
 
 /* header section */
 .header {
-    background-color: #1F2937;
+    background-color: #698072;
     color: white;
     flex: 3;
     display: flex;
@@ -94,8 +94,11 @@ li a {
     text-align: center;
 }
 
-a:hover {
-    color: #3882f6;
+li a:hover {
+    color: #4b515c;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 
@@ -125,7 +128,7 @@ a:hover {
 
 .txt-btn {
     border-radius: 3px;
-    background-color: #3882f6;
+    background-color: #4b515c;
     border: none;
     color: #fff;
     padding: 0 20px 0 20px;
@@ -144,7 +147,7 @@ a:hover {
 }
 
 .txt-btn:hover {
-    color: #3882f6;
+    color: #4b515c;
     background-color: #fff;
 }
 
@@ -174,7 +177,7 @@ a:hover {
 
 .info {
     background-color: #fff;
-    color: #1F2937;
+    color: #4b515c;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex: 3;
@@ -186,7 +189,7 @@ a:hover {
 
 .info-header {
     font-size: 36px;
-    color:#1F2937;
+    color:#4b515c;
     font-family: "Quicksand", sans-serif;
     display: flex;
     justify-content: center;
@@ -227,7 +230,7 @@ a:hover {
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
     text-align: center;
-    color: #1F2937;
+    color: #4b515c;
     width: 200px;
     justify-content: center;
 
@@ -239,7 +242,7 @@ a:hover {
     justify-content: center;
     text-align: center;
     color: #fff;
-    background-color: #3882f6;
+    background-color: #4b515c;
     /* border: 1.5px solid rgba(0,0,0,0.3); */
     padding: 5px 10px 5px 10px;
     border-radius: 8px;
@@ -249,9 +252,9 @@ a:hover {
 .imgLink:hover {
     padding: 3px 8px 3px 8px;
     border-radius: 8px;
-    color: #3882f6;
+    color: #4b515c;
     background-color: #fff;
-    border: 2px solid #3882f6;
+    border: 2px solid #4b515c;
 }
 /* quote section */
 
@@ -287,7 +290,7 @@ a:hover {
 
 .signup {
     background-color: #fff;
-    color: #1F2937;
+    color: #4b515c;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex: 3;
@@ -299,7 +302,7 @@ a:hover {
 
 .signup-box {
     display: flex;
-    background-color: #3882f6;
+    background-color: #4b515c;
     color: #fff;
     border-radius: 5px;
 
@@ -337,7 +340,7 @@ a:hover {
 
 .signup-btn {
     border-radius: 3px;
-    background-color: #3882f6;
+    background-color: #4b515c;
     border: 1px solid #fff;
     color: #fff;
     padding: 0 20px 0 20px;
@@ -349,14 +352,14 @@ a:hover {
 
 .signup-btn:hover {
     background-color: #fff;
-    color: #3882f6;
+    color: #4b515c;
 }
 
 
 /* footer section */
 
 .footer {
-    background-color: #1F2937;
+    background-color: #698072;
     color: #e5e7eb;
     font-size: 12px;
     font-family: "Quicksand", sans-serif;
